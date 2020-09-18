@@ -46,11 +46,11 @@ int Create_new_account(){
    float available_balance = 0;
    fflush(stdin);     
    printf("\nEnter the account holder name    : ");
-   scanf("%s", &customer_name);
+   scanf("%s", customer_name);
    printf("\nEnter the account holder address : ");
-   scanf("%s", &customer_address);
+   scanf("%s", customer_address);
    printf("\nEnter PAN Number : ");
-   scanf("%s",&PAN_number);
+   scanf("%s",PAN_number);
    
    
    printf("\n****** YOUR DETAIlS ******\n");
