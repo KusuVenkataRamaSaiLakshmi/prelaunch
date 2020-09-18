@@ -7,7 +7,7 @@ int main() {
 		printf("\n#### WELCOME TO MY BANKING SYSTEM ####\n");
 		display();
 		printf("Please enter any options (1/2/3/4/5):");
-		choice = getch();
+		choice = getc();
         switch(choice){
           case '1': Create_new_account();
                     break;
