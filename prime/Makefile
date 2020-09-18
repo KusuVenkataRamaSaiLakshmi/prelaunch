@@ -5,10 +5,10 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-src/prime.c\
+src/operations.c\
 
 # All test source files
-TEST_SRC = src/prime.c\
+TEST_SRC = src/operations.c\
 test/test_prime_operations.c
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
